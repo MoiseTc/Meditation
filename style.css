@@ -57,3 +57,19 @@ video{
     color: black;
     background: white;
 }
+.sound-picker button{
+    border: none;
+    height: 7.5rem;
+    width: 7.5rem;
+    border-radius: 50%;
+    padding: 1.5rem;
+}
+.sound-picker button:nth-child(1){
+    background: #4972a1;
+}
+.sound-picker button:nth-child(2){
+    background: #a14f49;
+}
+.sound-picker button img{
+    height: 100%;
+}
